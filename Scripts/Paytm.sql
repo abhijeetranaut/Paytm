@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [PaytmDb]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Database [PaytmDb]    Script Date: 21-02-2020 19:37:07 ******/
 CREATE DATABASE [PaytmDb]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -77,7 +77,7 @@ ALTER DATABASE [PaytmDb] SET QUERY_STORE = OFF
 GO
 USE [PaytmDb]
 GO
-/****** Object:  Table [dbo].[FashionSubCategories]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[FashionSubCategories]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -92,7 +92,7 @@ CREATE TABLE [dbo].[FashionSubCategories](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[FashionProducts]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[FashionProducts]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -107,7 +107,7 @@ CREATE TABLE [dbo].[FashionProducts](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Carts]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Carts]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -125,7 +125,7 @@ CREATE TABLE [dbo].[Carts](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Sellers]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Sellers]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -143,7 +143,7 @@ CREATE TABLE [dbo].[Sellers](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[SellerProducts]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[SellerProducts]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -162,7 +162,7 @@ CREATE TABLE [dbo].[SellerProducts](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[vCartItems]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  View [dbo].[vCartItems]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -177,7 +177,7 @@ FROM            dbo.Carts INNER JOIN
                          dbo.SellerProducts ON dbo.FashionProducts.SellerProductId = dbo.SellerProducts.SellerProductId INNER JOIN
                          dbo.Sellers ON dbo.SellerProducts.SellerId = dbo.Sellers.SellerId
 GO
-/****** Object:  Table [dbo].[ApplicationObjects]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[ApplicationObjects]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -193,7 +193,7 @@ CREATE TABLE [dbo].[ApplicationObjects](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Cities]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Cities]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -208,7 +208,7 @@ CREATE TABLE [dbo].[Cities](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MovieBookings]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[MovieBookings]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -225,7 +225,7 @@ CREATE TABLE [dbo].[MovieBookings](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Movies]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Movies]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -240,7 +240,7 @@ CREATE TABLE [dbo].[Movies](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Theatres]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Theatres]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -255,7 +255,7 @@ CREATE TABLE [dbo].[Theatres](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Halls]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Halls]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -272,7 +272,7 @@ CREATE TABLE [dbo].[Halls](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[MovieHalls]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[MovieHalls]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -289,7 +289,7 @@ CREATE TABLE [dbo].[MovieHalls](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[vMovieBook]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  View [dbo].[vMovieBook]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -306,7 +306,7 @@ FROM            dbo.Movies INNER JOIN
                          dbo.MovieBookings ON dbo.MovieHalls.MovieHallId = dbo.MovieBookings.MovieHallId INNER JOIN
                          dbo.ApplicationObjects ON dbo.MovieBookings.ApplicationObjectId = dbo.ApplicationObjects.ApplicationObjectId
 GO
-/****** Object:  View [dbo].[vMovieDetails]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  View [dbo].[vMovieDetails]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -323,7 +323,7 @@ FROM            dbo.MovieHalls INNER JOIN
                          dbo.Theatres ON dbo.Halls.TheatreId = dbo.Theatres.TheatreId INNER JOIN
                          dbo.ApplicationObjects ON dbo.MovieBookings.ApplicationObjectId = dbo.ApplicationObjects.ApplicationObjectId
 GO
-/****** Object:  Table [dbo].[ApplicationObjectTypes]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[ApplicationObjectTypes]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -338,7 +338,7 @@ CREATE TABLE [dbo].[ApplicationObjectTypes](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[BankCardDetails]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[BankCardDetails]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -358,7 +358,7 @@ CREATE TABLE [dbo].[BankCardDetails](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Banks]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Banks]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -374,7 +374,7 @@ CREATE TABLE [dbo].[Banks](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[BookingMasters]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[BookingMasters]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -392,7 +392,7 @@ CREATE TABLE [dbo].[BookingMasters](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Brands]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Brands]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -406,7 +406,7 @@ CREATE TABLE [dbo].[Brands](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[BusAvailableSeats]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[BusAvailableSeats]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -422,7 +422,7 @@ CREATE TABLE [dbo].[BusAvailableSeats](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[BusBookings]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[BusBookings]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -437,7 +437,7 @@ CREATE TABLE [dbo].[BusBookings](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Buses]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Buses]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -458,7 +458,7 @@ CREATE TABLE [dbo].[Buses](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[BusTravellerDetails]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[BusTravellerDetails]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -476,7 +476,7 @@ CREATE TABLE [dbo].[BusTravellerDetails](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DeliveryAddresses]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[DeliveryAddresses]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -493,7 +493,7 @@ CREATE TABLE [dbo].[DeliveryAddresses](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[FashionCategories]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[FashionCategories]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -507,7 +507,7 @@ CREATE TABLE [dbo].[FashionCategories](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[FlightAvailableSeats]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[FlightAvailableSeats]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -526,7 +526,7 @@ CREATE TABLE [dbo].[FlightAvailableSeats](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[FlightBookings]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[FlightBookings]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -542,7 +542,7 @@ CREATE TABLE [dbo].[FlightBookings](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Flights]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Flights]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -563,7 +563,7 @@ CREATE TABLE [dbo].[Flights](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[FlightTravellerDetails]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[FlightTravellerDetails]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -582,7 +582,7 @@ CREATE TABLE [dbo].[FlightTravellerDetails](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[KycDetails]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[KycDetails]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -599,7 +599,7 @@ CREATE TABLE [dbo].[KycDetails](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Orders]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Orders]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -614,7 +614,7 @@ CREATE TABLE [dbo].[Orders](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[OTPs]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[OTPs]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -631,7 +631,7 @@ CREATE TABLE [dbo].[OTPs](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Recharges]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Recharges]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -647,7 +647,7 @@ CREATE TABLE [dbo].[Recharges](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[States]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[States]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -661,7 +661,7 @@ CREATE TABLE [dbo].[States](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Transactions]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Transactions]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -678,7 +678,7 @@ CREATE TABLE [dbo].[Transactions](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[UserDetails]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[UserDetails]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -696,7 +696,7 @@ CREATE TABLE [dbo].[UserDetails](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Users]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Users]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -713,7 +713,7 @@ CREATE TABLE [dbo].[Users](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Wallets]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  Table [dbo].[Wallets]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -929,7 +929,7 @@ REFERENCES [dbo].[Users] ([UserId])
 GO
 ALTER TABLE [dbo].[Wallets] CHECK CONSTRAINT [FK_Wallets_Users]
 GO
-/****** Object:  StoredProcedure [dbo].[spSearchFlights]    Script Date: 21-02-2020 19:15:01 ******/
+/****** Object:  StoredProcedure [dbo].[spSearchFlights]    Script Date: 21-02-2020 19:37:07 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -938,7 +938,8 @@ CREATE procedure [dbo].[spSearchFlights]
 @Source varchar(20) , @Destination varchar(20), @Date datetime
 
 As
-select * from Flights where Source= @Source and Destination = @Destination and DayOfFlight = datename(weekday,@Date);
+select * from Flights where Source= @Source and Destination = @Destination or DayOfFlight = datename(weekday,@Date) 
+order by Price;
 GO
 EXEC sys.sp_addextendedproperty @name=N'MS_DiagramPane1', @value=N'[0E232FF0-B466-11cf-A24F-00AA00A3EFFF, 1.00]
 Begin DesignProperties = 
