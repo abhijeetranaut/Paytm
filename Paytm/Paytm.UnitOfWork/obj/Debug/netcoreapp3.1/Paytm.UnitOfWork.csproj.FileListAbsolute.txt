@@ -1,0 +1,13 @@
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\bin\Debug\netcoreapp3.1\Paytm.BoundedContext.dll
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\bin\Debug\netcoreapp3.1\Paytm.Models.dll
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\obj\Debug\netcoreapp3.1\Paytm.UnitOfWork.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\obj\Debug\netcoreapp3.1\Paytm.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\obj\Debug\netcoreapp3.1\Paytm.UnitOfWork.AssemblyInfo.cs
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\bin\Debug\netcoreapp3.1\Paytm.UnitOfWork.deps.json
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\bin\Debug\netcoreapp3.1\Paytm.UnitOfWork.dll
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\bin\Debug\netcoreapp3.1\Paytm.UnitOfWork.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\bin\Debug\netcoreapp3.1\Paytm.BoundedContext.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\bin\Debug\netcoreapp3.1\Paytm.Models.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\obj\Debug\netcoreapp3.1\Paytm.UnitOfWork.csproj.CopyComplete
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\obj\Debug\netcoreapp3.1\Paytm.UnitOfWork.dll
+C:\Users\radix\source\repos\Paytm\Paytm.UnitOfWork\obj\Debug\netcoreapp3.1\Paytm.UnitOfWork.pdb

@@ -1,0 +1,17 @@
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.BoundedContext.dll
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.Infrastructure.dll
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.Models.dll
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.UnitOfWork.dll
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\obj\Debug\netcoreapp3.1\Paytm.Domain.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\obj\Debug\netcoreapp3.1\Paytm.Domain.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\obj\Debug\netcoreapp3.1\Paytm.Domain.AssemblyInfo.cs
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.Domain.deps.json
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.Domain.dll
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.BoundedContext.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.UnitOfWork.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.Models.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.Infrastructure.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\obj\Debug\netcoreapp3.1\Paytm.Domain.csproj.CopyComplete
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\bin\Debug\netcoreapp3.1\Paytm.Domain.pdb
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\obj\Debug\netcoreapp3.1\Paytm.Domain.dll
+C:\Users\radix\source\repos\Paytm\Paytm.Domain\obj\Debug\netcoreapp3.1\Paytm.Domain.pdb
