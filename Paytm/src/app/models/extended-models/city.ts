@@ -10,12 +10,12 @@ export class City extends CityBase
 
 //#region Generated Reference Properties
 //#region state Prop
-        state : StateBase;
+state : StateBase;
 //#endregion state Prop
-
 //#region movies Prop
-        movies : MovieBase[];
+movies : MovieBase[];
 //#endregion movies Prop
 
 //#endregion Generated Reference Properties
+
 }

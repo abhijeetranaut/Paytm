@@ -9,8 +9,9 @@ export class BankCardDetail extends BankCardDetailBase
 
 //#region Generated Reference Properties
 //#region bank Prop
-        bank : BankBase;
+bank : BankBase;
 //#endregion bank Prop
 
 //#endregion Generated Reference Properties
+
 }

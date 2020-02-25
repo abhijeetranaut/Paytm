@@ -11,16 +11,15 @@ export class FlightBooking extends FlightBookingBase
 
 //#region Generated Reference Properties
 //#region bookingMaster Prop
-        bookingMaster : BookingMasterBase;
+bookingMaster : BookingMasterBase;
 //#endregion bookingMaster Prop
-
 //#region flight Prop
-        flight : FlightBase;
+flight : FlightBase;
 //#endregion flight Prop
-
 //#region flightTravellerDetails Prop
-        flightTravellerDetails : FlightTravellerDetailBase[];
+flightTravellerDetails : FlightTravellerDetailBase[];
 //#endregion flightTravellerDetails Prop
 
 //#endregion Generated Reference Properties
+
 }

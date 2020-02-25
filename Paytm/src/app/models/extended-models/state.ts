@@ -9,8 +9,9 @@ export class State extends StateBase
 
 //#region Generated Reference Properties
 //#region cities Prop
-        cities : CityBase[];
+cities : CityBase[];
 //#endregion cities Prop
 
 //#endregion Generated Reference Properties
+
 }

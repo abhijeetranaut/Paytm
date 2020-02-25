@@ -7,5 +7,7 @@ export class vMovieDetail extends vMovieDetailBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
 }

@@ -7,5 +7,7 @@ export class vMovieBook extends vMovieBookBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
 }

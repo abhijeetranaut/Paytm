@@ -13,6 +13,10 @@
     <ProjectReference Include="..\Paytm.Infrastructure\Paytm.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MasterDomain\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

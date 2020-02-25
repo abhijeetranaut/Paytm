@@ -9,8 +9,9 @@ export class FlightTravellerDetail extends FlightTravellerDetailBase
 
 //#region Generated Reference Properties
 //#region flightBooking Prop
-        flightBooking : FlightBookingBase;
+flightBooking : FlightBookingBase;
 //#endregion flightBooking Prop
 
 //#endregion Generated Reference Properties
+
 }

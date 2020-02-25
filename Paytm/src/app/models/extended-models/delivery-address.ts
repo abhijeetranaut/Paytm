@@ -10,12 +10,12 @@ export class DeliveryAddress extends DeliveryAddressBase
 
 //#region Generated Reference Properties
 //#region user Prop
-        user : UserBase;
+user : UserBase;
 //#endregion user Prop
-
 //#region orders Prop
-        orders : OrderBase[];
+orders : OrderBase[];
 //#endregion orders Prop
 
 //#endregion Generated Reference Properties
+
 }

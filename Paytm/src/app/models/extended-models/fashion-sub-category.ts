@@ -10,12 +10,12 @@ export class FashionSubCategory extends FashionSubCategoryBase
 
 //#region Generated Reference Properties
 //#region fashionCategory Prop
-        fashionCategory : FashionCategoryBase;
+fashionCategory : FashionCategoryBase;
 //#endregion fashionCategory Prop
-
 //#region fashionProducts Prop
-        fashionProducts : FashionProductBase[];
+fashionProducts : FashionProductBase[];
 //#endregion fashionProducts Prop
 
 //#endregion Generated Reference Properties
+
 }

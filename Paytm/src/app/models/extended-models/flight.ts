@@ -10,12 +10,12 @@ export class Flight extends FlightBase
 
 //#region Generated Reference Properties
 //#region flightAvailableSeats Prop
-        flightAvailableSeats : FlightAvailableSeatBase[];
+flightAvailableSeats : FlightAvailableSeatBase[];
 //#endregion flightAvailableSeats Prop
-
 //#region flightBookings Prop
-        flightBookings : FlightBookingBase[];
+flightBookings : FlightBookingBase[];
 //#endregion flightBookings Prop
 
 //#endregion Generated Reference Properties
+
 }

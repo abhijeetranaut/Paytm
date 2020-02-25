@@ -11,16 +11,15 @@ export class Cart extends CartBase
 
 //#region Generated Reference Properties
 //#region fashionProduct Prop
-        fashionProduct : FashionProductBase;
+fashionProduct : FashionProductBase;
 //#endregion fashionProduct Prop
-
 //#region user Prop
-        user : UserBase;
+user : UserBase;
 //#endregion user Prop
-
 //#region orders Prop
-        orders : OrderBase[];
+orders : OrderBase[];
 //#endregion orders Prop
 
 //#endregion Generated Reference Properties
+
 }

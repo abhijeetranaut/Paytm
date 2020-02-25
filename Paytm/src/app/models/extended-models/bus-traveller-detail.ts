@@ -9,8 +9,9 @@ export class BusTravellerDetail extends BusTravellerDetailBase
 
 //#region Generated Reference Properties
 //#region busBooking Prop
-        busBooking : BusBookingBase;
+busBooking : BusBookingBase;
 //#endregion busBooking Prop
 
 //#endregion Generated Reference Properties
+
 }

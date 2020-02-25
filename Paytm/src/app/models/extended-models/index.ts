@@ -1,4 +1,3 @@
-export {Bus} from './bus';;
 export {BusTravellerDetail} from './bus-traveller-detail';;
 export {DeliveryAddress} from './delivery-address';;
 export {FashionCategory} from './fashion-category';;
@@ -35,6 +34,7 @@ export {Seller} from './seller';;
 export {SellerProduct} from './seller-product';;
 export {City} from './city';;
 export {MovieBooking} from './movie-booking';;
+export {Bus} from './bus';;
 export {Movie} from './movie';;
 export {Theatre} from './theatre';;
 export {Hall} from './hall';;

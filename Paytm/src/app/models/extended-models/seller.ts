@@ -9,8 +9,9 @@ export class Seller extends SellerBase
 
 //#region Generated Reference Properties
 //#region sellerProducts Prop
-        sellerProducts : SellerProductBase[];
+sellerProducts : SellerProductBase[];
 //#endregion sellerProducts Prop
 
 //#endregion Generated Reference Properties
+
 }

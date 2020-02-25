@@ -11,16 +11,15 @@ export class BookingMaster extends BookingMasterBase
 
 //#region Generated Reference Properties
 //#region user Prop
-        user : UserBase;
+user : UserBase;
 //#endregion user Prop
-
 //#region busBookings Prop
-        busBookings : BusBookingBase[];
+busBookings : BusBookingBase[];
 //#endregion busBookings Prop
-
 //#region flightBookings Prop
-        flightBookings : FlightBookingBase[];
+flightBookings : FlightBookingBase[];
 //#endregion flightBookings Prop
 
 //#endregion Generated Reference Properties
+
 }

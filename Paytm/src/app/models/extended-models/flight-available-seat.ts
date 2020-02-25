@@ -9,8 +9,9 @@ export class FlightAvailableSeat extends FlightAvailableSeatBase
 
 //#region Generated Reference Properties
 //#region flight Prop
-        flight : FlightBase;
+flight : FlightBase;
 //#endregion flight Prop
 
 //#endregion Generated Reference Properties
+
 }

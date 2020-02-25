@@ -7,5 +7,7 @@ export class vCartItem extends vCartItemBase
 
 
 //#region Generated Reference Properties
+
 //#endregion Generated Reference Properties
+
 }

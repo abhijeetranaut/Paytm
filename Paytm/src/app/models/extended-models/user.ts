@@ -20,52 +20,42 @@ export class User extends UserBase
 
 //#region Generated Reference Properties
 //#region applicationUserTokens Prop
-        applicationUserTokens : ApplicationUserTokenBase[];
+applicationUserTokens : ApplicationUserTokenBase[];
 //#endregion applicationUserTokens Prop
-
 //#region userRoles Prop
-        userRoles : UserRoleBase[];
+userRoles : UserRoleBase[];
 //#endregion userRoles Prop
-
 //#region carts Prop
-        carts : CartBase[];
+carts : CartBase[];
 //#endregion carts Prop
-
 //#region movieBookings Prop
-        movieBookings : MovieBookingBase[];
+movieBookings : MovieBookingBase[];
 //#endregion movieBookings Prop
-
 //#region bookingMasters Prop
-        bookingMasters : BookingMasterBase[];
+bookingMasters : BookingMasterBase[];
 //#endregion bookingMasters Prop
-
 //#region deliveryAddresses Prop
-        deliveryAddresses : DeliveryAddressBase[];
+deliveryAddresses : DeliveryAddressBase[];
 //#endregion deliveryAddresses Prop
-
 //#region kycDetails Prop
-        kycDetails : KycDetailBase[];
+kycDetails : KycDetailBase[];
 //#endregion kycDetails Prop
-
 //#region oTPs Prop
-        oTPs : OTPBase[];
+oTPs : OTPBase[];
 //#endregion oTPs Prop
-
 //#region recharges Prop
-        recharges : RechargeBase[];
+recharges : RechargeBase[];
 //#endregion recharges Prop
-
 //#region transactions Prop
-        transactions : TransactionBase[];
+transactions : TransactionBase[];
 //#endregion transactions Prop
-
 //#region userDetails Prop
-        userDetails : UserDetailBase[];
+userDetails : UserDetailBase[];
 //#endregion userDetails Prop
-
 //#region wallets Prop
-        wallets : WalletBase[];
+wallets : WalletBase[];
 //#endregion wallets Prop
 
 //#endregion Generated Reference Properties
+
 }

@@ -10,12 +10,12 @@ export class Transaction extends TransactionBase
 
 //#region Generated Reference Properties
 //#region user Prop
-        user : UserBase;
+user : UserBase;
 //#endregion user Prop
-
 //#region wallets Prop
-        wallets : WalletBase[];
+wallets : WalletBase[];
 //#endregion wallets Prop
 
 //#endregion Generated Reference Properties
+
 }

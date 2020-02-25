@@ -9,8 +9,9 @@ export class BusAvailableSeat extends BusAvailableSeatBase
 
 //#region Generated Reference Properties
 //#region bus Prop
-        bus : BusBase;
+bus : BusBase;
 //#endregion bus Prop
 
 //#endregion Generated Reference Properties
+
 }

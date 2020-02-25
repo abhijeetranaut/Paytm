@@ -224,6 +224,10 @@
               "target": "Package",
               "version": "[2.2.8, )"
             },
+            "RxWeb.Core": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "RxWeb.Core.Annotations": {
               "target": "Package",
               "version": "[2.0.4, )"

@@ -11,16 +11,15 @@ export class SellerProduct extends SellerProductBase
 
 //#region Generated Reference Properties
 //#region brand Prop
-        brand : BrandBase;
+brand : BrandBase;
 //#endregion brand Prop
-
 //#region seller Prop
-        seller : SellerBase;
+seller : SellerBase;
 //#endregion seller Prop
-
 //#region fashionProducts Prop
-        fashionProducts : FashionProductBase[];
+fashionProducts : FashionProductBase[];
 //#endregion fashionProducts Prop
 
 //#endregion Generated Reference Properties
+
 }

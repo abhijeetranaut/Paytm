@@ -30,11 +30,10 @@ namespace Paytm.Models.Main
 
 		#region ShowTime Annotations
 
-        [Range(1,int.MaxValue)]
         [Required]
 		#endregion ShowTime Annotations
 
-        public int ShowTime { get; set; }
+        public System.DateTime ShowTime { get; set; }
 
 		#region Price Annotations
 

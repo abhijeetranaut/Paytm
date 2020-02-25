@@ -9,8 +9,9 @@ export class OTP extends OTPBase
 
 //#region Generated Reference Properties
 //#region user Prop
-        user : UserBase;
+user : UserBase;
 //#endregion user Prop
 
 //#endregion Generated Reference Properties
+
 }

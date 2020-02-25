@@ -5,61 +5,61 @@ using RxWeb.Core;
 using Paytm.UnitOfWork.Main;
 using Paytm.Models.Main;
 
-namespace Paytm.Domain.MasterModule
+namespace Paytm.Domain.UserModule
 {
-    public class FlightavailableSeatDomain : IFlightavailableSeatDomain
+    public class UserDomain : IUserDomain
     {
-        public FlightavailableSeatDomain(IMasterUow uow) {
+        public UserDomain(IUserUow uow) {
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync( parameters)
+        public Task<object> GetAsync(User parameters)
         {
             throw new NotImplementedException();
         }
 
-        public Task<object> GetBy( parameters)
+        public Task<object> GetBy(User parameters)
         {
             throw new NotImplementedException();
         }
         
 
-        public HashSet<string> AddValidation(FlightAvailableSeat entity)
+        public HashSet<string> AddValidation(User entity)
         {
             return ValidationMessages;
         }
 
-        public async Task AddAsync(FlightAvailableSeat entity)
+        public async Task AddAsync(User entity)
         {
             await Uow.RegisterNewAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> UpdateValidation(FlightAvailableSeat entity)
+        public HashSet<string> UpdateValidation(User entity)
         {
             return ValidationMessages;
         }
 
-        public async Task UpdateAsync(FlightAvailableSeat entity)
+        public async Task UpdateAsync(User entity)
         {
             await Uow.RegisterDirtyAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation(FlightAvailableSeat entity)
+        public HashSet<string> DeleteValidation(User parameters)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync(FlightAvailableSeat entity)
+        public Task DeleteAsync(User parameters)
         {
             throw new NotImplementedException();
         }
 
-        public IMasterUow Uow { get; set; }
+        public IUserUow Uow { get; set; }
 
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IFlightavailableSeatDomain : ICoreDomain<FlightAvailableSeat, FlightAvailableSeat> { }
+    public interface IUserDomain : ICoreDomain<User,User> { }
 }

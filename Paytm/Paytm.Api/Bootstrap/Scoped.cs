@@ -8,9 +8,9 @@ using RxWeb.Core;
 using Paytm.UnitOfWork.DbEntityAudit;
 using Paytm.BoundedContext.Main;
 using Paytm.UnitOfWork.Main;
-using Paytm.Domain.MasterModule;
-            #endregion Namespace
 
+            using Paytm.Domain.UserModule;
+            #endregion Namespace
 
 
 
@@ -42,19 +42,25 @@ namespace Paytm.Api.Bootstrap
                         serviceCollection.AddScoped<IBookingMasterContext, BookingMasterContext>();
             serviceCollection.AddScoped<IBookingMasterUow, BookingMasterUow>();
                         serviceCollection.AddScoped<IFlightavailableSeatsContext, FlightavailableSeatsContext>();
-            serviceCollection.AddScoped<IFlightavailableSeatsUow, FlightavailableSeatsUow>();
+            
+                        serviceCollection.AddScoped<IBookingMasterContext, BookingMasterContext>();
+            serviceCollection.AddScoped<IBookingMasterUow, BookingMasterUow>();                       
+            serviceCollection.AddScoped<IUserUow, UserUow>();
+                        serviceCollection.AddScoped<IUserContext, UserContext>();
+            serviceCollection.AddScoped<IUserUow, UserUow>();
             #endregion ContextService
 
-
-
+            
 
             #region DomainService
-
             
             
-            
-            serviceCollection.AddScoped<IFlightavailableSeatDomain, FlightavailableSeatDomain>();
+            serviceCollection.AddScoped<IUserDomain, UserDomain>();
             #endregion DomainService
+
+
+
+
 
 
         }

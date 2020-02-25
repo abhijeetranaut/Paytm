@@ -18,9 +18,8 @@ export class MovieHallBase {
 
 
 //#region showTime Prop
-        @range({minimumNumber:1,maximumNumber:2147483647})
         @required()
-        showTime : number;
+        showTime : Date;
 //#endregion showTime Prop
 
 

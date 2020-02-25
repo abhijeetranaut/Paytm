@@ -11,16 +11,15 @@ export class MovieHall extends MovieHallBase
 
 //#region Generated Reference Properties
 //#region hall Prop
-        hall : HallBase;
+hall : HallBase;
 //#endregion hall Prop
-
 //#region movie Prop
-        movie : MovieBase;
+movie : MovieBase;
 //#endregion movie Prop
-
 //#region movieBookings Prop
-        movieBookings : MovieBookingBase[];
+movieBookings : MovieBookingBase[];
 //#endregion movieBookings Prop
 
 //#endregion Generated Reference Properties
+
 }

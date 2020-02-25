@@ -10,12 +10,12 @@ export class Bus extends BusBase
 
 //#region Generated Reference Properties
 //#region busAvailableSeats Prop
-        busAvailableSeats : BusAvailableSeatBase[];
+busAvailableSeats : BusAvailableSeatBase[];
 //#endregion busAvailableSeats Prop
-
 //#region busBookings Prop
-        busBookings : BusBookingBase[];
+busBookings : BusBookingBase[];
 //#endregion busBookings Prop
 
 //#endregion Generated Reference Properties
+
 }

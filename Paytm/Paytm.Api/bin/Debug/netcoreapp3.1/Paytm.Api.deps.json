@@ -2007,6 +2007,7 @@
           "Paytm.BoundedContext": "1.0.0",
           "Paytm.Models": "1.0.0",
           "Paytm.UnitOfWork": "1.0.0",
+          "RxWeb.Core": "2.0.3-preview1",
           "RxWeb.Core.Annotations": "2.0.4",
           "RxWeb.Core.Cache": "2.0.2",
           "RxWeb.Core.Sanitizers": "2.0.3",

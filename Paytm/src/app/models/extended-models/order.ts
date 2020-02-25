@@ -10,12 +10,12 @@ export class Order extends OrderBase
 
 //#region Generated Reference Properties
 //#region cart Prop
-        cart : CartBase;
+cart : CartBase;
 //#endregion cart Prop
-
 //#region deliveryAddress Prop
-        deliveryAddress : DeliveryAddressBase;
+deliveryAddress : DeliveryAddressBase;
 //#endregion deliveryAddress Prop
 
 //#endregion Generated Reference Properties
+
 }

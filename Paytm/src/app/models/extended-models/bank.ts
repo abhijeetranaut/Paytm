@@ -9,8 +9,9 @@ export class Bank extends BankBase
 
 //#region Generated Reference Properties
 //#region bankCardDetails Prop
-        bankCardDetails : BankCardDetailBase[];
+bankCardDetails : BankCardDetailBase[];
 //#endregion bankCardDetails Prop
 
 //#endregion Generated Reference Properties
+
 }

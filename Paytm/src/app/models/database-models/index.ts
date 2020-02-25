@@ -1,4 +1,3 @@
-export {BusBase} from './bus-base';;
 export {BusTravellerDetailBase} from './bus-traveller-detail-base';;
 export {DeliveryAddressBase} from './delivery-address-base';;
 export {FashionCategoryBase} from './fashion-category-base';;
@@ -35,6 +34,7 @@ export {SellerBase} from './seller-base';;
 export {SellerProductBase} from './seller-product-base';;
 export {CityBase} from './city-base';;
 export {MovieBookingBase} from './movie-booking-base';;
+export {BusBase} from './bus-base';;
 export {MovieBase} from './movie-base';;
 export {TheatreBase} from './theatre-base';;
 export {HallBase} from './hall-base';;

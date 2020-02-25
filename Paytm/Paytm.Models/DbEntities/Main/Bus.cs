@@ -66,10 +66,11 @@ namespace Paytm.Models.Main
 
 		#region Duration Annotations
 
+        [Range(1,int.MaxValue)]
         [Required]
 		#endregion Duration Annotations
 
-        public TimeSpan Duration { get; set; }
+        public int Duration { get; set; }
 
 		#region ApplicationObjectId Annotations
 

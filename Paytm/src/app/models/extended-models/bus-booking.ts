@@ -11,16 +11,15 @@ export class BusBooking extends BusBookingBase
 
 //#region Generated Reference Properties
 //#region bookingMaster Prop
-        bookingMaster : BookingMasterBase;
+bookingMaster : BookingMasterBase;
 //#endregion bookingMaster Prop
-
 //#region bus Prop
-        bus : BusBase;
+bus : BusBase;
 //#endregion bus Prop
-
 //#region busTravellerDetails Prop
-        busTravellerDetails : BusTravellerDetailBase[];
+busTravellerDetails : BusTravellerDetailBase[];
 //#endregion busTravellerDetails Prop
 
 //#endregion Generated Reference Properties
+
 }

@@ -10,12 +10,12 @@ export class MovieBooking extends MovieBookingBase
 
 //#region Generated Reference Properties
 //#region movieHall Prop
-        movieHall : MovieHallBase;
+movieHall : MovieHallBase;
 //#endregion movieHall Prop
-
 //#region user Prop
-        user : UserBase;
+user : UserBase;
 //#endregion user Prop
 
 //#endregion Generated Reference Properties
+
 }

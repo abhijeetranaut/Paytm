@@ -6,3 +6,11 @@ C:\Users\radix\source\repos\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Mod
 C:\Users\radix\source\repos\Paytm\Paytm.Models\bin\Debug\netcoreapp3.1\Paytm.Models.pdb
 C:\Users\radix\source\repos\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Models.dll
 C:\Users\radix\source\repos\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Models.pdb
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\bin\Debug\netcoreapp3.1\Paytm.Models.deps.json
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\bin\Debug\netcoreapp3.1\Paytm.Models.dll
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\bin\Debug\netcoreapp3.1\Paytm.Models.pdb
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Models.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Models.AssemblyInfo.cs
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Models.dll
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Models.pdb
+C:\Users\radix\source\repos\Paytm2\Paytm\Paytm.Models\obj\Debug\netcoreapp3.1\Paytm.Models.csprojAssemblyReference.cache

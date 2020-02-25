@@ -9,8 +9,9 @@ export class Theatre extends TheatreBase
 
 //#region Generated Reference Properties
 //#region halls Prop
-        halls : HallBase[];
+halls : HallBase[];
 //#endregion halls Prop
 
 //#endregion Generated Reference Properties
+
 }
